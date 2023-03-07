@@ -1,0 +1,17 @@
+:root {
+    --primary_color: #033f5f;
+    --seconday_color: #007CBC;
+    --highlight_color: #F5BA36;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* Media Queries for larger screens than 768px */
+@media screen and (min-width: 48rem) {
+    
+
+} /* Closes the media query */
