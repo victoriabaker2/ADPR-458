@@ -1,7 +1,14 @@
 body {
     margin: 0 10%;
     font-family: sans-serif;
+    background-image: url("../images/paisley.png");
     }
+
+    .container {
+        background-color: white;
+    }
+    
+    
     header {
         background-color:#f9ccca;
         color: white;
