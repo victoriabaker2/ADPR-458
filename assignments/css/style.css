@@ -3,7 +3,7 @@
     font-family: sans-serif; 
 }
 
-body {
+    body {
     margin: 0;
     font-family: sans-serif;
     background-image: url("../images/paisley.png");
@@ -13,7 +13,6 @@ body {
         background-color:#f9ccca;
         color: white;
         padding: 2rem;
-
     }
 
     h1 {
@@ -24,9 +23,6 @@ body {
     height: 100px;
      border-radius: 50%;
     }
-    img{
-border: solid #f9ccca
-    }
     
     h2 {
     font-size: 1.5rem;
@@ -36,9 +32,16 @@ border: solid #f9ccca
     }
     .circle {
         border-radius: 50%;
-        border: 5px solid #f9ccca
-
+        border: 5px solid #f9ccca;
     }
+    a:link, a:visited {
+    color: #f9ccca;
+    text-decoration: none;
+    }
+    a:hover {
+        color: #f79c9c;
+        text-decoration: underline;
+        }
 
     /********* Layout *******/
 
@@ -63,4 +66,21 @@ border: solid #f9ccca
     .col-span-4 {
         grid-column: span 4;
     }
+}
+
+   /********* Components *******/
+    .button:link, .button:visited {
+        color: white;
+        background-color: #f9ccca;
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem 1.75rem;
+        border-radius: .5rem;
+        box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+        display: inline-block; 
+        margin: 0 .25rem .25rem 0;
+        transition: background-color 0.5s ease;
+}
+    .button:hover {
+        background-color: #f79c9c;
 }
