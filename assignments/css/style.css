@@ -39,7 +39,7 @@
     text-decoration: none;
     }
     a:hover {
-        color: #f79c9c;
+        color: #f9ccca;
         text-decoration: underline;
         }
 
@@ -68,6 +68,42 @@
     }
 }
 
+/********* Navigation Using Flexbox *******/
+nav {
+    background-color: #dedede;
+    padding: 0 1rem;
+    display: flex; 
+    justify-content: center;
+    position: sticky; 
+    top: 0; 
+}
+
+nav ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+nav li {
+    margin: 0 0.5rem;
+}
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1rem;
+    display: block;
+    transition: ease-in-out 250ms;
+}
+
+nav a:hover {
+    background-color: #f4a09c;
+    color: white;
+
+}
+
    /********* Components *******/
     .button:link, .button:visited {
         color: white;
@@ -82,5 +118,5 @@
         transition: background-color 0.5s ease;
 }
     .button:hover {
-        background-color: #f79c9c;
+        background-color: #f4a09c;
 }
