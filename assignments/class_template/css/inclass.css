@@ -2,16 +2,54 @@
     --primary_color: #033f5f;
     --seconday_color: #007CBC;
     --highlight_color: #F5BA36;
+    --neutral_grey: #747e83;
+    --neutral_light: #fff;
 }
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+h1 {
+    color: var(--neutral_light);
+}
+h2 {
+    color: var(--primary_color);
+}
+h3 {
+    color: var(--neutral_grey);
+}
+p {
+    color: var(--neutral_grey);
+}
+img {
+    max-width: 100%; /* This makes all your images responsive */
+}
 
-
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+}
+.container > * {
+    grid-column: span 12;
+}
 
 /* Media Queries for larger screens than 768px */
 @media screen and (min-width: 48rem) {
+
+
+    .col-span-4 {
+        grid-column: span 4;
+    }
+    .col-span-6 {
+        grid-column: span 6;
+    }
+    .col-span-8 {
+        grid-column: span 8;
+    }
+    
     
 
 } /* Closes the media query */
+Footer
