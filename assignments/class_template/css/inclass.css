@@ -38,17 +38,33 @@ img {
 /* Media Queries for larger screens than 768px */
 @media screen and (min-width: 48rem) {
 
-
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-3 {
+        grid-column: span 3;
+    }
     .col-span-4 {
         grid-column: span 4;
+    }
+    .col-span-5 {
+        grid-column: span 5;
     }
     .col-span-6 {
         grid-column: span 6;
     }
+    .col-span-7 {
+        grid-column: span 7;
+    }
     .col-span-8 {
         grid-column: span 8;
     }
-    
+    .col-span-9 {
+        grid-column: span 9;
+    }
+    .col-span-10 {
+        grid-column: span 10;
+    }
     
 
 } /* Closes the media query */
