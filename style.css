@@ -25,11 +25,22 @@ header .right-side .nav-link-wrapper a{
     color: #be8abf;
 }
 
-body .container {
-    background-color: white;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(12,1fr);
-    margin: 0 auto;
-    width: min(95%, 75rem);
+.div-1{
+    background-color:#be8abf;
+    color: white;
+}
+
+.div-2 {
+    background-color: #ea9abb;
+    color: white;
+}
+
+.div-3 {
+    background-color: #fea5ad;
+    color: white;
+}
+
+.div-4 {
+    background-color: #f8c3af;
+    color: white;
 }
