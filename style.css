@@ -34,6 +34,6 @@ header .right-side .nav-link-wrapper a{
     width: min(95%, 75rem);
 }
 
-img .oval {
+img .rounded-corners {
     border-radius: 50%;
 }
