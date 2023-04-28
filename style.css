@@ -8,3 +8,16 @@ header {
     color: #be8abf;
     padding: 2rem;
 }
+
+.parent {
+    display: flex;
+
+}
+.container {
+    background-color: white;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0 auto;
+    width: min(95%, 75rem);
+}
