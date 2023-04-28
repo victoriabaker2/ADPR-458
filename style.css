@@ -33,3 +33,7 @@ header .right-side .nav-link-wrapper a{
     margin: 0 auto;
     width: min(95%, 75rem);
 }
+
+img {
+    border-radius: 50%;
+}
