@@ -25,7 +25,7 @@ header .right-side .nav-link-wrapper a{
     color: #be8abf;
 }
 
-.container {
+body .container {
     background-color: white;
     display: grid;
     gap: 1.5rem;
@@ -34,3 +34,19 @@ header .right-side .nav-link-wrapper a{
     width: min(95%, 75rem);
 }
 
+body.container_two {
+    text-align: center;
+
+
+}
+
+body.container_three {
+    text-align: center;
+
+
+}
+
+body.container_four {
+    text-align: center;
+
+}
