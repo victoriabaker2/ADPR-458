@@ -33,20 +33,3 @@ body .container {
     margin: 0 auto;
     width: min(95%, 75rem);
 }
-
-body.container_two {
-    text-align: center;
-
-
-}
-
-body.container_three {
-    text-align: center;
-
-
-}
-
-body.container_four {
-    text-align: center;
-
-}
