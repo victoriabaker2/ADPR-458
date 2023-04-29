@@ -13,19 +13,18 @@ header {
     color: #be8abf;
     padding: 2rem;
 }
-
+/* unvisited link*/
 a:link {
     color: #be8abf;
     text-decoration: none;
 }
-
+/* visited link*/
 a:visited {
    color: #be8abf;
 }
-
+/* mouse over link*/
 a:hover {
     color: #9c6da5;
-
 }
 
 header .right-side {
