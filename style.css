@@ -31,12 +31,25 @@ header .right-side {
     display: flex;
 }
 
+header .right-side a:link {
+    color: #be8abf;
+}
+
+header .right-side a:visited {
+    color: #be8abf;
+}
+
+header .right-side a:hover {
+    color: #9c6da5;
+}
+
 header .right-side .nav-link-wrapper a{
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     color: #be8abf;
 }
+
 
 .div-1{
     background-color:#be8abf;
