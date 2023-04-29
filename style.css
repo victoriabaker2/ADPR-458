@@ -44,16 +44,3 @@ header .right-side .nav-link-wrapper a{
     background-color: #f8c3af;
     color: white;
 }
-
-.container {
-    background-color: white;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(12,1fr);
-    margin: 0 auto;
-    width: min(95%, 75rem);
-}
-
-.container > * {
-    grid-column: span 12;
-}
