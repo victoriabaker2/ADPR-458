@@ -14,12 +14,18 @@ header {
     padding: 2rem;
 }
 
-a: link {
+a:link {
     color: #be8abf;
+    text-decoration: none;
 }
 
-a: link {
-    text-decoration: none;
+a:visited {
+   color: #be8abf;
+}
+
+a:hover {
+    color: #9c6da5;
+
 }
 
 header .right-side {
