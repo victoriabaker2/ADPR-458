@@ -89,8 +89,9 @@ header .right-side .nav-link-wrapper a{
 
 .button2 {
     position: relative;
-    background-color: white;
+    background-color: #be8abf;
     color: white;
+    border-color: #be8abf;
     font-size: 20px;
     padding: 10px 30px;
     border: none;
