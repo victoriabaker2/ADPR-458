@@ -89,11 +89,17 @@ header .right-side .nav-link-wrapper a{
 
 .button4 {
     position: relative;
-    background-color: #be8abf;
-    color: white;
+    background-color: #ffffff;
+    color: #be8abf;
     border-color: #be8abf;
+    border-style: solid;
     font-size: 20px;
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+button:hover {
+
+    
 }
