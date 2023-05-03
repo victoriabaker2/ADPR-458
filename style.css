@@ -102,5 +102,5 @@ header .right-side .nav-link-wrapper a{
 .button4:hover{
     background-color: #be8abf;
     color: #fff;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
