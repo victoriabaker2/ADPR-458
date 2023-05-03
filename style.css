@@ -91,7 +91,7 @@ header .right-side .nav-link-wrapper a{
     position: relative;
     background-color: white;
     color: white;
-    border-color: #be8abf;
+    outline-color: #be8abf;
     font-size: 20px;
     padding: 10px 30px;
     border: none;
