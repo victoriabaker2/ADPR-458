@@ -99,7 +99,7 @@ header .right-side .nav-link-wrapper a{
     border-radius: 5px;
 }
 
-button:hover {
+.button4:hover{
     background-color: #be8abf;
-    color: white;
+    color: #fff;
 }
