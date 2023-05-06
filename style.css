@@ -1,91 +1,4 @@
-{
-    box-sizing: border-box;
-    font-family: sans-serif; 
-}
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    margin: 10px auto;
-    background-color:#ffffff;
-    color: #be8abf;
-    padding: 2rem;
-}
-/* unvisited link*/
-a:link {
-    color: #be8abf;
-    text-decoration: none;
-}
-/* visited link*/
-a:visited {
-   color: #be8abf;
-}
-/* mouse over link*/
-a:hover {
-    color: #9c6da5;
-}
-
-header .right-side {
-    display: flex;
-}
-
-header .right-side a:link {
-    color: #be8abf;
-}
-
-header .right-side a:visited {
-    color: #be8abf;
-}
-
-header .right-side a:hover {
-    color: #9c6da5;
-}
-
-header .right-side .nav-link-wrapper a{
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-    color: #be8abf;
-}
-
-
-.div-1{
-    background-color:#be8abf;
-    color: white;
-}
-
-.div-2 {
-    background-color: #ea9abb;
-    color: white;
-}
-
-.div-3 {
-    background-color: #fea5ad;
-    color: white;
-}
-
-.div-4 {
-    background-color: #f8c3af;
-    color: white;
-}
-
-.card {
-    text-align: center;
-    margin: 1rem;
-    padding-bottom: 2rem;
-    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15)
-}
-.card-title {
-    margin: 0.75rem 0 0 0;
-    padding: 0 2rem 0.5rem;
-}
-
-.card-text {
-    margin: 0.5rem 0 1rem 0;
-    padding: 0 2rem 0.5rem;
-}
 
 .button4 {
     position: relative;
@@ -96,7 +9,7 @@ header .right-side .nav-link-wrapper a{
     font-size: 20px;
     padding: 10px 30px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .button4:hover{
@@ -104,3 +17,4 @@ header .right-side .nav-link-wrapper a{
     color: #fff;
     transition: background-color 0.5s ease;
 }
+

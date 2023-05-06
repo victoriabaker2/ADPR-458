@@ -1,53 +1,123 @@
-<!doctype html>
+<<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Victoria Baker</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Adam's Awesome Website</title>
+    
+    <!--SEO -->
+        <meta name="description" content="Page Description Here">
+        <meta name="author" content="Adam Wagler">
+            
+    <!--Icons -->
+        <!-- Make iOS icon 180x180 PNG -->
+        <link rel="apple-touch-icon" href="#">
+        <!-- Make Shortcut icon 32x32 PNG -->
+        <link rel="icon" href="#">
+        
+    <!-- Needed for RWD -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- Styles -->
+        <link href="css/inclass.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet" />
+        
+    <!-- jQuery Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            
+                });
+        </script>
 </head>
-<body>
-    <div class="container">
-     <header> 
-    <h1>Interactive Media Design</h1>
-</header>
 
-<nav>
-<ul>
-<li><a href="index.html">About</a></li>
-<li><a href="work.html">Work</a></li>
-<li><a href="contact.html">Contact </a></li>
-</ul>
+<body>   
 
 
-</nav>       
+<div class="container_lg blue">
 
-<section class="col-span-8">
-   <h2>Victoria Baker</h2>
+    <div class="card_col-span-3">Test</div>
+
+    
+    <header class="col-span-6">
+        <h1 class="white_text">Awesome Websites</h1>
+    </header> 
+    
+    
+    <!-- Navigation -->
+    <nav class="col-span-6">
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div><!-- closes the large container -->
+
+<div class="container"> 
+    <!-- Hero Image -->
+    <section>
+        <img src="images/promoGraphic.jpg" alt="Awesome Website Promo">
+    </section>
 
 
-    <h3>About Me</h3>
-    <p> I'm a senior broadcasting student at the University of Nebraska-Lincioln with a minor in film studies.  </p>
+    <!-- Work -->
+    <section class="center spacing" id="work">
+        <h2>Work</h2>
+        <p>
+            <a href="images/thumb.png" data-lightbox="image-1" data-title="My caption">Image #1</a>
+        </p>
 
-    <h2>Classes This Semester</h2>
-    <p> I'm only taking four classes this spring semester: ethnicity in film, interactive media design, writing and communities, and jacht for my capstone. </p>
+        <div class="work">
+            <a href="images/promoGraphic.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/thumb.png" alt="Project 1"></a>
+            <img src="images/thumb.png" alt="Project 2">
+            <img src="images/thumb.png" alt="Project 3">
+            <img src="images/thumb.png" alt="Project 4">
+            <img src="images/thumb.png" alt="Project 5">
+            <img src="images/thumb.png" alt="Project 1">
+            <img src="images/thumb.png" alt="Project 2">
+            <img src="images/thumb.png" alt="Project 3">
+            <img src="images/thumb.png" alt="Project 4">
+            <img src="images/thumb.png" alt="Project 5">
+        </div>
+    </section>
+    
 
-    <h3>Outside of Classes</h3>
-    <p>Outside of class, I like to listen to music, read, and hang out with friends.</p>
 
-    <h3>After Graduation</h3>
-    <p>After graduation, I'm hoping that I can intern at an ad agency and copywrite or intern for a company and do PR/communications. </p>
-</section>
+    <!-- Content -->
+    <article class="col-span-8" id="about">
+        <h2>Awesome Websites</h2>
+        
+        <p>Our web design company believes that a great website is more than just a collection of web pages. It's an extension of your brand, your voice, and your story. Our experienced designers and developers work closely with clients to create custom websites that are not only beautiful but also functional and user-friendly. We focus on responsive design, mobile optimization, and search engine optimization to ensure that your website reaches the widest possible audience and helps you achieve your business goals.</p>
 
+        <p>We're committed to delivering the best possible results for our clients. Our team is passionate about staying up-to-date with the latest trends and technologies in web design, so you can be sure that your website will be cutting-edge and innovative. Whether you're looking to build a new website from scratch or revamp an existing one, we're here to help you take your online presence to the next level.</p>
+    </article>
 
-<aside class="col-span-4"> 
-    <p><img src="images/vb_peace.png" alt="photo of victoria" class="circle"></p>
-    <a href="https://www.linkedin.com/in/victoria-baker-7070051ba/" target="_blank" class="button">Connect on LinkedIn</a>
-</aside>
+    <aside class="col-span-4">
+        <img src="images/thumb.png" alt="Project 1">
+    </aside>
 
-<footer>
-<p> &copy; 2023 Victoria Baker</p>
+</div><!--close container --> 
 
-</footer>
-</div><!-- container closes-->
+<div class="container_lg center yellow callout spacing">
+
+    <!-- Quote -->
+    <section>
+        <h3>Generally you don't see that kind of behavior in a major appliance.</h3>
+        <p>- Peter Venkman</p>
+    </section> 
+
+</div>  
+    
+
+<div class="container">
+    <!-- Footer  -->
+    <footer class="center" id="contact">
+        <h2>Connect with us</h2>
+        <p>Awesome Websites &copy; 2023</p>
+    </footer>
+    
+</div><!--close container --> 
+
+<script src="js/lightbox.js"></script>
 </body>
 </html>
