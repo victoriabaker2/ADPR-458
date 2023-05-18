@@ -216,3 +216,23 @@ height: 500px;
   box-shadow: 0 0 10px white;
 
 }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color:  rgb(148, 0, 211);
+}
+
+/* selected link */
+a:active {
+  color:rgb(148, 0, 211);
+}
